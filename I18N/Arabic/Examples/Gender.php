@@ -68,7 +68,7 @@ foreach ($names as $name) {
         $bgcolor = '#E0F0FF';
     }
     echo '<tr><td bgcolor="'.$bgcolor.'" align="center">';
-    echo '<font face="Tahoma">'.$name.'</font></td>';
+    echo '<font face="Cairo, Tahoma">'.$name.'</font></td>';
     echo '<td bgcolor="'.$bgcolor.'" align="center">'.$gender.'</td></tr>';
 }
 
@@ -121,7 +121,7 @@ END;
            \$bgcolor = '#E0F0FF';
         }
         echo '<tr><td bgcolor="'.\$bgcolor.'" align="center">';
-        echo '<font face="Tahoma">'.\$name.'</font></td>';
+        echo '<font face="Cairo, Tahoma">'.\$name.'</font></td>';
         echo '<td bgcolor="'.\$bgcolor.'" align="center">'.\$gender.'</td></tr>';
     }
 

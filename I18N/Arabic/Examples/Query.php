@@ -28,11 +28,11 @@ $time_start = microtime(true);
 
 <div class="Paragraph" dir="rtl">
 <h2 dir="ltr">Example Output:</h2>
-    <font face="Tahoma" size="2">
+    <font face="Cairo, Tahoma" size="2">
     <table border="0" width="100%" dir="ltr">
       </tr>
         <td align="center">
-          <font face="Tahoma" size="2">Example database table contains 574 headline from
+          <font face="Cairo, Tahoma" size="2">Example database table contains 574 headline from
           <a href="http://www.aljazeera.net" target=_blank>Aljazeera.net</a>
           news channel website presented at 2003.</font>
         </td>
