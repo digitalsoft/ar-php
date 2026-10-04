@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
 @page {
     size: 7in 9.25in;
     margin: 27mm 16mm 27mm 16mm;
@@ -5,7 +7,7 @@
 
 .Paragraph  {
     text-align:justify;
-    font: normal 10pt/1.4em Tahoma;
+    font: normal 10pt/1.4em Cairo, Tahoma;
     background: #fff;
     border: 1px solid #ccc;
     clear: both;

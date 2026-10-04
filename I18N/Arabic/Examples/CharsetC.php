@@ -40,7 +40,7 @@ $charset = $Arabic->getOutputCharset();
 
 <div class="Paragraph" dir="rtl">
 <h2 dir="ltr">Example Output:</h2>
-<font face="Tahoma" size="2">
+<font face="Cairo, Tahoma" size="2">
 <a href="CharsetC.php?charset=windows-1256">Windows-1256</a> |
 <a href="CharsetC.php?charset=iso-8859-6">ISO 8859-6</a> |
 <a href="CharsetC.php?charset=utf-8">UTF-8</a><br /><br />

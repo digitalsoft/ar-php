@@ -41,7 +41,7 @@ echo <<< END
     <tr>
       <td bgcolor="#27509D" align="center" width="150">
         <b>
-          <font color="#ffffff" face="Tahoma">
+          <font color="#ffffff" face="Cairo, Tahoma">
             English<br />(auto generated)
           </font>
         </b>
@@ -57,13 +57,13 @@ echo <<< END
 END;
 
 foreach ($ar_terms as $term) {
-    echo '<tr><td bgcolor="#f5f5f5" align="left"><font face="Tahoma">';
+    echo '<tr><td bgcolor="#f5f5f5" align="left"><font face="Cairo, Tahoma">';
     echo $Arabic->ar2en($term);
     echo '</font></td>';
     echo '<td bgcolor="#f5f5f5" align="right">'.$term.'</td></tr>';
 }
 
-echo '<tr><td bgcolor="#d0d0f5" align="left"><font face="Tahoma">';
+echo '<tr><td bgcolor="#d0d0f5" align="left"><font face="Cairo, Tahoma">';
 echo $Arabic->enNum('0123,456.789');
 echo '</font></td>';
 echo '<td bgcolor="#d0d0f5" align="right">0123,456.789</td></tr>';
@@ -91,7 +91,7 @@ $code = <<< ENDALL
     <tr>
       <td bgcolor="#27509D" align="center" width="150">
         <b>
-          <font color="#ffffff" face="Tahoma">
+          <font color="#ffffff" face="Cairo, Tahoma">
             English<br />(auto generated)
           </font>
         </b>
@@ -107,13 +107,13 @@ $code = <<< ENDALL
 END;
 
     foreach (\$ar_terms as \$term) {
-        echo '<tr><td bgcolor="#f5f5f5" align="left"><font face="Tahoma">';
+        echo '<tr><td bgcolor="#f5f5f5" align="left"><font face="Cairo, Tahoma">';
         echo \$Arabic->ar2en(\$term);
         echo '</font></td>';
         echo '<td bgcolor="#f5f5f5" align="right">'.\$term.'</td></tr>';
     }
 
-    echo '<tr><td bgcolor="#d0d0f5" align="left"><font face="Tahoma">';
+    echo '<tr><td bgcolor="#d0d0f5" align="left"><font face="Cairo, Tahoma">';
     echo \$Arabic->enNum('0123,456.789');
     echo '</font></td>';
     echo '<td bgcolor="#d0d0f5" align="right">0123,456.789</td></tr>';
